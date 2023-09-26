@@ -1,0 +1,60 @@
+.card {
+  border-radius: 10px;
+  border: 1px solid #423d3c;
+  margin: 50px 0;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.card__bookmark {
+  background-image: url(../resources/bookmark.png);
+  height: 30px;
+  width: 30px;
+  /* align-self: flex-end;
+  display: flex; */
+  background-color: transparent;
+  border: none;
+  background-size: contain;
+  top: -15px;
+  right: 15px;
+  position: absolute;
+}
+
+.card__question {
+  font-size: 20px;
+  text-align: center;
+  color: #423d3c;
+}
+
+.card__answer {
+  font-size: 20px;
+  text-align: center;
+  color: #423d3c;
+}
+
+.tags {
+  align-self: flex-start;
+  display: flex;
+}
+
+.tags .tag {
+  padding-right: 20px;
+}
+
+.card__button {
+  border: 1px solid #423d3c;
+  background-color: white;
+  color: #423d3c;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}

@@ -11,3 +11,36 @@ body {
 * {
   list-style-type: none;
 }
+
+.navbar__link__home {
+  background-image: url(./resources/home.png);
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+}
+
+.navbar__link__home:hover {
+  background-image: url(./resources/home_filled.png);
+}
+
+.navbar__link__bookmarks {
+  background-image: url(./resources/bookmark.png);
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+}
+
+.navbar__link__bookmarks:hover {
+  background-image: url(./resources/bookmark_filled.png);
+}
+
+.navbar__link__profile {
+  background-image: url(./resources/profile.png);
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+}
+
+.navbar__link__profile:hover {
+  background-image: url(./resources/profile_filled.png);
+}

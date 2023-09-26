@@ -1,0 +1,7 @@
+/* Including one css file into other */
+@import "./components/header.css";
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}

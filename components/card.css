@@ -22,6 +22,19 @@
   right: 15px;
   position: absolute;
 }
+.card__bookmark__filed {
+  background-image: url(../resources/bookmark_filled.png);
+  height: 30px;
+  width: 30px;
+  /* align-self: flex-end;
+    display: flex; */
+  background-color: transparent;
+  border: none;
+  background-size: contain;
+  top: -15px;
+  right: 15px;
+  position: absolute;
+}
 
 .card__question {
   font-size: 20px;

@@ -40,12 +40,15 @@
   font-size: 20px;
   text-align: center;
   color: #423d3c;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .card__answer {
   font-size: 20px;
   text-align: center;
   color: #423d3c;
+  padding: 20px 0;
 }
 
 .tags {
@@ -58,16 +61,22 @@
 }
 
 .card__button {
-  border: 1px solid #423d3c;
+  border: 1px solid green;
   background-color: white;
-  color: #423d3c;
+  color: green;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
   width: 200px;
   height: 50px;
+  border-radius: 20px;
 
   display: flex;
   align-self: center;
   justify-content: center;
+}
+
+.card__button .active a {
+  background-color: #c0c0c0;
+  color: green;
 }

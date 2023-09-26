@@ -4,9 +4,16 @@
 @import "./components/card.css";
 
 body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
   max-width: 600px;
-  margin: 0 auto;
-  background-color: #f9f9f9;
+  margin: 100px auto;
+  margin-bottom: 100px;
+}
+
+.main-content {
 }
 * {
   list-style-type: none;
@@ -17,9 +24,14 @@ body {
   height: 40px;
   width: 40px;
   background-size: contain;
+  display: inline-block;
 }
 
 .navbar__link__home:hover {
+  background-image: url(./resources/home_filled.png);
+}
+
+.navbar__link__home.activet {
   background-image: url(./resources/home_filled.png);
 }
 
@@ -28,6 +40,7 @@ body {
   height: 40px;
   width: 40px;
   background-size: contain;
+  display: inline-block;
 }
 
 .navbar__link__bookmarks:hover {
@@ -39,6 +52,7 @@ body {
   height: 40px;
   width: 40px;
   background-size: contain;
+  display: inline-block;
 }
 
 .navbar__link__profile:hover {
@@ -73,12 +87,8 @@ body {
   justify-content: space-around;
 }
 
-main {
-  margin-top: 50px;
-}
-
 section {
-  margin: 0 0 100px 0;
+  margin: 0 0 50px 0;
 }
 
 .settings__section {

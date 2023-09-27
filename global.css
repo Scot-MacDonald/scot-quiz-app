@@ -7,3 +7,10 @@
   --green: green;
   --white: white;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --black: white;
+    --white: black;
+  }
+}

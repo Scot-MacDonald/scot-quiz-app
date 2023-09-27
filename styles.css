@@ -2,6 +2,7 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--white);
 }
 
 main {
@@ -13,33 +14,6 @@ main {
 section {
   margin: 0 0 50px 0;
 }
-
-/* start profile section */
-
-/* .main-content__profile {
-  border: 1px #423d3c solid;
-  padding: 10px;
-  border-radius: 20px;
-}
-.profile__section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.--image,
-.--name {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.--text {
-  width: 100%;
-} */
-/* end */
 
 /* slider switch button*/
 .switch {

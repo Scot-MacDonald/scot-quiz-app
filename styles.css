@@ -16,7 +16,7 @@ section {
 
 /* start profile section */
 
-.main-content__profile {
+/* .main-content__profile {
   border: 1px #423d3c solid;
   padding: 10px;
   border-radius: 20px;
@@ -38,26 +38,8 @@ section {
 
 .--text {
   width: 100%;
-}
+} */
 /* end */
-
-.counter__section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.settings__section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.settings__title {
-  width: 100%;
-}
 
 /* slider switch button*/
 .switch {

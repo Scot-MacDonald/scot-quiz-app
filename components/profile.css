@@ -1,0 +1,86 @@
+.main-content__pro {
+  border: 1px #423d3c solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+.profile__section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.--image,
+.--name {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bookmarks,
+.questions {
+  margin-right: 40px;
+}
+
+.questions,
+.bookmarks {
+  border: 1px solid green;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.questions,
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: space-between;
+}
+
+.bookmarks,
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions img {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}
+
+.bookmarks img {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}
+
+.--text {
+  width: 100%;
+}
+
+.counter__section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.settings__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__title {
+  width: 100%;
+}

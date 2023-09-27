@@ -18,7 +18,7 @@
   background-color: transparent;
   border: none;
   background-size: contain;
-  top: -15px;
+  top: -10px;
   right: 15px;
   position: absolute;
 }
@@ -48,9 +48,9 @@
 .card__answer {
   font-size: 20px;
   text-align: center;
-  color: #423d3c;
+  color: var(--green);
   padding: 20px 0;
-  display: none;
+  /* display: none; */
 }
 
 .tags {
@@ -70,8 +70,8 @@
 
 .card__button {
   border: 1px solid green;
-  background-color: white;
-  color: green;
+  background-color: var(--white);
+  color: var(--green);
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -87,11 +87,11 @@
 }
 
 .card__button:hover {
-  background-color: green;
-  color: white;
+  background-color: var(green);
+  color: var(--white);
 }
 
 .card__button .active a {
   background-color: #c0c0c0;
-  color: green;
+  color: var(--green);
 }

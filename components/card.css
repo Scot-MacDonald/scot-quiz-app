@@ -2,9 +2,6 @@
   border-radius: 10px;
   border: 1px solid #423d3c;
   margin: 50px 0;
-  /* display: flex;
-  align-items: center;
-  flex-direction: column; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -13,8 +10,6 @@
   background-image: url(../resources/bookmark.png);
   height: 30px;
   width: 30px;
-  /* align-self: flex-end;
-  display: flex; */
   background-color: transparent;
   border: none;
   background-size: contain;
@@ -26,8 +21,6 @@
   background-image: url(../resources/bookmark_filled.png);
   height: 30px;
   width: 30px;
-  /* align-self: flex-end;
-    display: flex; */
   background-color: transparent;
   border: none;
   background-size: contain;

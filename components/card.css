@@ -43,7 +43,6 @@
   color: #423d3c;
   text-align: center;
   padding: 20px 0;
-  display: none;
 }
 
 .card__answer {
@@ -87,7 +86,7 @@
 }
 
 .card__button:hover {
-  background-color: var(--green);
+  background-color: var(green);
   color: var(--white);
 }
 

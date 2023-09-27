@@ -1,3 +1,5 @@
+/* Card styles */
+
 .card {
   border-radius: 10px;
   border: 1px solid #423d3c;
@@ -6,6 +8,9 @@
   display: flex;
   flex-direction: column;
 }
+
+/* not selected bookmark */
+
 .card__bookmark {
   background-image: url(../resources/bookmark.png);
   height: 30px;
@@ -17,6 +22,9 @@
   right: 15px;
   position: absolute;
 }
+
+/* selected bookmark*/
+
 .card__bookmark__filed {
   background-image: url(../resources/bookmark_filled.png);
   height: 30px;
@@ -24,7 +32,7 @@
   background-color: transparent;
   border: none;
   background-size: contain;
-  top: -15px;
+  top: -10px;
   right: 15px;
   position: absolute;
 }
@@ -42,15 +50,22 @@
   text-align: center;
   color: #423d3c;
   padding: 20px 0;
+  display: none;
 }
 
 .tags {
   align-self: flex-start;
   display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  margin-left: 5px;
 }
 
-.tags .tag {
-  padding-right: 20px;
+.tag {
+  padding: 5px;
+  border: 1px solid green;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 .card__button {
@@ -60,13 +75,20 @@
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   height: 50px;
   border-radius: 20px;
-
   display: flex;
   align-self: center;
   justify-content: center;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.card__button:hover {
+  background-color: green;
+  color: white;
 }
 
 .card__button .active a {

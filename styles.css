@@ -1,8 +1,3 @@
-/* Including one css file into other */
-@import url("./header.css");
-@import url("./global.css");
-@import url("./components/card.css");
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -87,6 +82,12 @@ footer {
 /* end navigation */
 
 /* start profile section */
+
+.main-content__profile {
+  border: 1px #423d3c solid;
+  padding: 10px;
+  border-radius: 20px;
+}
 .profile__section {
   display: flex;
   flex-wrap: wrap;
@@ -164,11 +165,11 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: black;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px black;
 }
 
 input:checked + .slider:before {

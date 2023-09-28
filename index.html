@@ -11,97 +11,93 @@
     <link rel="stylesheet" href="./components/navifation.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="header-content">
-        <h1>Quiz App</h1>
-      </div>
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
     </header>
     <main class="main-content">
-      <section class="card-section">
-        <article class="card">
-          <button class="card__bookmark"></button>
-          <p class="card__question">What is the capital of Scotland?</p>
-          <button class="card__button">Show Answer</button>
-          <p class="card__answer">Edinburgh</p>
-          <ul class="tags">
-            <li class="tag">city</li>
-            <li class="tag">country</li>
-            <li class="tag">haggis</li>
-          </ul>
-        </article>
+      <article class="card">
+        <button class="card__bookmarks card__bookmark"></button>
+        <h2 class="card__question">What is the capital of Scotland?</h2>
+        <button class="card__button">Show Answer</button>
+        <p class="card__answer">Edinburgh</p>
+        <ul class="card__tags">
+          <li class="card__tags__tag">city</li>
+          <li class="card__tags__tag">country</li>
+          <li class="card__tags__tag">haggis</li>
+        </ul>
+      </article>
 
-        <article class="card">
-          <button class="card__bookmark__filed"></button>
-          <p class="card__question">What is the capital of Brazil?</p>
-          <button class="card__button">Show Answer</button>
-          <p class="card__answer">Brasília</p>
-          <ul class="tags">
-            <li class="tag">city</li>
-            <li class="tag">country</li>
-            <li class="tag">caipirinha</li>
-          </ul>
-        </article>
+      <article class="card">
+        <button class="card__bookmarks card__bookmark--filed"></button>
+        <h2 class="card__question">What is the capital of Brazil?</h2>
+        <button class="card__button">Show Answer</button>
+        <p class="card__answer">Brasília</p>
+        <ul class="card__tags">
+          <li class="card__tags__tag">city</li>
+          <li class="card__tags__tag">country</li>
+          <li class="card__tags__tag">caipirinha</li>
+        </ul>
+      </article>
 
-        <article class="card">
-          <button class="card__bookmark"></button>
-          <p class="card__question">What is the capital of Iran?</p>
-          <button class="card__button">Show Answer</button>
-          <p class="card__answer">Tehran</p>
-          <ul class="tags">
-            <li class="tag">city</li>
-            <li class="tag">country</li>
-            <li class="tag">sheep brains</li>
-          </ul>
-        </article>
+      <article class="card">
+        <button class="card__bookmarks card__bookmark"></button>
+        <h2 class="card__question">What is the capital of Iran?</h2>
+        <button class="card__button">Show Answer</button>
+        <p class="card__answer">Tehran</p>
+        <ul class="card__tags">
+          <li class="card__tags__tag">city</li>
+          <li class="card__tags__tag">country</li>
+          <li class="card__tags__tag">sheep brains</li>
+        </ul>
+      </article>
 
-        <article class="card">
-          <button class="card__bookmark__filed"></button>
-          <p class="card__question">What is the capital of Uruguay?</p>
-          <button class="card__button">Show Answer</button>
-          <p class="card__answer">Montevideo</p>
-          <ul class="tags">
-            <li class="tag">city</li>
-            <li class="tag">country</li>
-            <li class="tag">meat</li>
-          </ul>
-        </article>
+      <article class="card">
+        <button class="card__bookmarks card__bookmark--filed"></button>
+        <h2 class="card__question">What is the capital of Uruguay?</h2>
+        <button class="card__button">Show Answer</button>
+        <p class="card__answer">Montevideo</p>
+        <ul class="card__tags">
+          <li class="card__tags__tag">city</li>
+          <li class="card__tags__tag">country</li>
+          <li class="card__tags__tag">meat</li>
+        </ul>
+      </article>
 
-        <article class="card">
-          <button class="card__bookmark__filed"></button>
-          <p class="card__question">What is the capital of Mexico?</p>
-          <button class="card__button">Show Answer</button>
-          <p class="card__answer">Mexico City</p>
-          <ul class="tags">
-            <li class="tag">city</li>
-            <li class="tag">country</li>
-            <li class="tag">chilli</li>
-          </ul>
-        </article>
+      <article class="card">
+        <button class="card__bookmarks card__bookmark--filed"></button>
+        <h2 class="card__question">What is the capital of Mexico?</h2>
+        <button class="card__button">Show Answer</button>
+        <p class="card__answer">Mexico City</p>
+        <ul class="card__tags">
+          <li class="card__tags__tag">city</li>
+          <li class="card__tags__tag">country</li>
+          <li class="card__tags__tag">chilli</li>
+        </ul>
+      </article>
 
-        <article class="card">
-          <button class="card__bookmark__filed"></button>
-          <p class="card__question">What is the capital of Israel?</p>
-          <button class="card__button">Show Answer</button>
-          <p class="card__answer">Jerusalem</p>
-          <ul class="tags">
-            <li class="tag">city</li>
-            <li class="tag">country</li>
-            <li class="tag">humus</li>
-          </ul>
-        </article>
-      </section>
+      <article class="card">
+        <button class="card__bookmarks card__bookmark--filed"></button>
+        <h2 class="card__question">What is the capital of Israel?</h2>
+        <button class="card__button">Show Answer</button>
+        <p class="card__answer">Jerusalem</p>
+        <ul class="card__tags">
+          <li class="card__tags__tag">city</li>
+          <li class="card__tags__tag">country</li>
+          <li class="card__tags__tag">humus</li>
+        </ul>
+      </article>
     </main>
     <footer>
       <nav class="navbar">
         <a
-          class="navbar-link navbar__link__home current"
+          class="navbar__link navbar__link--home--current"
           href="./index.html"
         ></a>
         <a
-          class="navbar-link navbar__link__bookmarks"
+          class="navbar__link navbar__link--bookmarks"
           href="./bootmarks.html"
         ></a>
-        <a class="navbar-link navbar__link__profile" href="./profile.html"></a>
+        <a class="navbar__link navbar__link--profile" href="./profile.html"></a>
       </nav>
     </footer>
   </body>

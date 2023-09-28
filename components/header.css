@@ -1,4 +1,4 @@
-.main-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,13 +8,10 @@
   z-index: 10;
 }
 
-.header-content {
+.header__title {
+  font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
-}
-
-.header-content h1 {
-  font-size: 24px;
+  height: 40px;
 }

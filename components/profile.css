@@ -3,7 +3,7 @@
   padding: 40px;
   border-radius: 20px;
 }
-.profile__section {
+.profile__bio {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -18,13 +18,11 @@
   justify-content: center;
 }
 
-.counter__section {
+.profile__counters {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
-.bookmarks,
+/* .bookmarks,
 .questions {
   margin-right: 40px;
 }
@@ -34,9 +32,9 @@
   border: 1px solid green;
   padding: 15px;
   border-radius: 10px;
-}
+} */
 
-.questions,
+/* .questions,
 .number {
   display: flex;
   align-items: center;
@@ -49,15 +47,38 @@
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+
+.profile__counters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px 100px;
 }
 
-.questions img {
-  width: 40px;
-  height: 40px;
-  margin-right: 30px;
+.profile__counter-question h2,
+.profile__counter-bookmark h2 {
+  margin: 0;
+}
+.profile__counter-question {
+  border: 1px solid green;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
 
-.bookmarks img {
+.profile__counter-bookmark {
+  border: 1px solid green;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.profile__counters img {
   width: 40px;
   height: 40px;
   margin-right: 30px;
@@ -84,3 +105,66 @@
 .settings__title {
   width: 100%;
 }
+
+/* slider switch button*/
+.settings__switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.setting__switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* end */

@@ -12,51 +12,47 @@
     <link rel="stylesheet" href="./components/navifation.css" />
   </head>
   <body>
-    <header class="main-header">
-      <div class="header-content">
-        <h1>Quiz App</h1>
-      </div>
+    <header class="header">
+      <h1 class="header__title">Quiz App</h1>
     </header>
     <main class="main-content__pro">
-      <section class="profile__section">
-        <article class="profile-card --image">
+      <article class="profile__bio">
+        <div class="profile-bio__image --image">
           <img
             class="profile__image"
             src="./components/resources/profile_filled.png"
             alt="profile image"
           />
-        </article>
-        <article class="profile-card --name">
-          <h2 class="profile__name">Scot MacDonald</h2>
-        </article>
-        <article class="profile-card --text">
-          <h3 class="profile__bio__title">About Me</h3>
-          <p class="profile__bio__text">
+        </div>
+        <div class="profile-bio__title --name">
+          <h2>Scot MacDonald</h2>
+        </div>
+        <div class="profile-bio__text --text">
+          <h3>About Me</h3>
+          <p>
             Former graphic designer now immersed in the world of development.
             Crafting lines of code with the same precision as pixels. Combining
             design aesthetics with technical proficiency to create functional
             and visually pleasing digital experiences.
           </p>
-        </article>
-      </section>
-      <section class="counter__section">
-        <article class="questions">
-          <img src="./components/resources/question.png" alt="" /><number
-            class="number"
-            >7</number
-          >
-        </article>
-        <article class="bookmarks">
-          <img src="./components/resources/bookmark_filled.png" alt="" /><number
-            class="number"
-            >4</number
-          >
-        </article>
-      </section>
+        </div>
+      </article>
+
+      <div class="profile__counters">
+        <div class="profile__counter-question">
+          <img src="./components/resources/question.png" alt="" />
+
+          <h2>7</h2>
+        </div>
+        <div class="profile__counter-bookmark">
+          <img src="./components/resources/bookmark_filled.png" alt="" />
+          <h2>4</h2>
+        </div>
+      </div>
       <section class="settings__section">
         <h3 class="settings__title">Settings</h3>
         <h4 class="settings__darkmode">Darkmode</h4>
-        <label class="settings__switch switch">
+        <label class="settings__switch">
           <input type="checkbox" checked />
           <span class="slider round"></span>
         </label>
@@ -65,13 +61,13 @@
   </body>
   <footer>
     <nav class="navbar">
-      <a class="navbar-link navbar__link__home" href="./index.html"></a>
+      <a class="navbar__link navbar__link--home" href="./index.html"></a>
       <a
-        class="navbar-link navbar__link__bookmarks"
+        class="navbar__link navbar__link--bookmarks"
         href="./bootmarks.html"
       ></a>
       <a
-        class="navbar-link navbar__link__profile current"
+        class="navbar__link navbar__link--profile--current"
         href="./profile.html"
       ></a>
     </nav>

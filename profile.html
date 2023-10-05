@@ -56,14 +56,20 @@
       <section class="settings__section">
         <h3 class="settings__title">Settings</h3>
         <h4 class="settings__darkmode">Darkmode</h4>
-        <label class="settings__switch">
-          <input type="checkbox" checked />
-          <span class="slider round"></span>
-        </label>
-        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        <div>
+          <input type="checkbox" class="checkbox" id="chk" />
+          <label class="label" for="chk">
+            <!-- <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i> -->
+
+            <div class="ball"></div>
+          </label>
+        </div>
+
+        <!-- <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
         <button class="button button--toggle" data-js="toggle-button">
           Toggle Mode
-        </button>
+        </button> -->
       </section>
     </main>
   </body>

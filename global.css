@@ -1,7 +1,9 @@
 * {
   list-style-type: none;
 }
-
+a {
+  text-decoration: none;
+}
 :root {
   --black: black;
   --green: green;
@@ -9,19 +11,38 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /* :root {
     --black: white;
     --white: black;
     --green: orange;
-  }
+  } */
 }
 
 body.dark {
   background-color: rgb(50, 51, 58);
-  color: white;
+  color: #7a7a7c;
 }
 
 body.dark header {
-  background-color: white;
-  color: black;
+  background-color: #1c1d1f;
+  color: #7a7c7a;
+}
+
+body.dark .main-content__pro {
+  background-color: #232325;
+}
+
+body.dark .profile__counter-question {
+  background-color: #313133;
+  border: 1px solid #797979;
+}
+
+body.dark .profile__counter-bookmark {
+  background-color: #313133;
+  border: 1px solid #797979;
+}
+
+body.dark footer {
+  background-color: #313133;
+  border-top: 1px solid #797979;
 }

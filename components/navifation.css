@@ -4,50 +4,50 @@ footer {
   left: 0;
   width: 100%;
   background-color: white;
-  padding: 20px 0;
+  padding: 0px 0;
   border-top: 1px solid #333;
 }
 
-.navbar {
+/* .navbar {
   display: flex;
   max-width: 600px;
   justify-content: space-around;
 
   margin: 0 auto;
-}
+} */
 
-.navbar__link {
+/* .navbar__link {
   align-content: stretch;
-  height: 40px;
-  width: 40px;
   background-size: contain;
   display: inline-block;
+  color: orange;
+}
+
+.navbar__link:hover {
+  color: blue;
+}
+
+.navbar__link.currentLink {
+  color: black !important;
 }
 
 .navbar__link--home {
-  background-image: url(./resources/home.png);
 }
 
 .navbar__link--home:hover {
-  background-image: url(./resources/home_filled.png);
 }
 
 .navbar__link--home--current {
-  background-image: url(./resources/home_filled.png);
 }
 
-.navbar__link--bookmarks {
-  background-image: url(./resources/bookmark.png);
+.navbar__link {
 }
 
-.navbar__link--bookmarks:hover {
-  background-image: url(./resources/bookmark_filled.png);
+.navbar__link:hover {
 }
-.navbar__link--bookmarks--current {
-  background-image: url(./resources/bookmark_filled.png);
+.navbar__link {
 }
 .navbar__link--profile {
-  background-image: url(./resources/profile.png);
 }
 
 .navbar__link--profile:hover {
@@ -55,4 +55,46 @@ footer {
 }
 .navbar__link--profile--current {
   background-image: url(./resources/profile_filled.png);
+} */
+
+/* Change icon color on hover */
+.navbar__link:hover i {
+  color: green; /* Change to the desired hover color */
+  background-color: #cccccc;
+}
+
+/* Set a different color for the current page icon */
+.navbar__link--current i {
+  color: green; /* Change to the desired color for the current page */
+}
+.navbar__link--current {
+  background-color: #cccccc;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/* Change background color on hover */
+.navbar {
+  display: flex; /* Use flexbox */
+  height: 50px;
+}
+
+.navbar__link {
+  flex: 1; /* Distribute available space evenly among links */
+  display: flex; /* Enable flex properties on links */
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+  height: 50px;
+  color: black;
+}
+
+.navbar__link:hover {
+  /* Change to the desired hover background color */
+  background-color: #cccccc;
+}
+
+.fa-lg {
+  font-size: 2em;
 }

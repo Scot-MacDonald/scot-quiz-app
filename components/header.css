@@ -3,9 +3,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
   z-index: 10;
+  border-bottom: 1px solid var(--black);
 }
 
 .header__title {

@@ -12,5 +12,16 @@
   :root {
     --black: white;
     --white: black;
+    --green: orange;
   }
+}
+
+body.dark {
+  background-color: rgb(50, 51, 58);
+  color: white;
+}
+
+body.dark header {
+  background-color: white;
+  color: black;
 }

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./components/profile.css" />
     <link rel="stylesheet" href="./components/navifation.css" />
   </head>
-  <body>
+  <body data-js="body">
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
     </header>
@@ -56,6 +56,10 @@
           <input type="checkbox" checked />
           <span class="slider round"></span>
         </label>
+
+        <button class="button button--toggle" data-js="toggle-button">
+          Toggle Mode
+        </button>
       </section>
     </main>
   </body>
@@ -72,4 +76,5 @@
       ></a>
     </nav>
   </footer>
+  <script src="./index.js"></script>
 </html>

@@ -14,14 +14,17 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <script src="./index.js"></script>
+
   <body data-js="body">
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
     </header>
     <main class="main-content">
       <article class="card">
-        <button class="card__bookmarks card__bookmark"></button>
+        <button class="card__bookmarks" data-js="button-selected">
+          <i class="fa-regular fa-bookmark" style="color: #000000"></i>
+        </button>
+
         <h2 class="card__question">What is the capital of Scotland?</h2>
         <button class="card__button">Show Answer</button>
         <p class="card__answer">Edinburgh</p>
@@ -33,7 +36,9 @@
       </article>
 
       <article class="card">
-        <button class="card__bookmarks card__bookmark--filed"></button>
+        <button class="card__bookmarks" data-js="button-selected">
+          <i class="fa-regular fa-bookmark" style="color: #000000"></i>
+        </button>
         <h2 class="card__question">What is the capital of Brazil?</h2>
         <button class="card__button">Show Answer</button>
         <p class="card__answer">Brasília</p>
@@ -45,7 +50,9 @@
       </article>
 
       <article class="card">
-        <button class="card__bookmarks card__bookmark"></button>
+        <button class="card__bookmarks" data-js="button-selected">
+          <i class="fa-regular fa-bookmark" style="color: #000000"></i>
+        </button>
         <h2 class="card__question">What is the capital of Iran?</h2>
         <button class="card__button">Show Answer</button>
         <p class="card__answer">Tehran</p>
@@ -57,7 +64,9 @@
       </article>
 
       <article class="card">
-        <button class="card__bookmarks card__bookmark--filed"></button>
+        <button class="card__bookmarks" data-js="button-selected">
+          <i class="fa-regular fa-bookmark" style="color: #000000"></i>
+        </button>
         <h2 class="card__question">What is the capital of Uruguay?</h2>
         <button class="card__button">Show Answer</button>
         <p class="card__answer">Montevideo</p>
@@ -69,7 +78,9 @@
       </article>
 
       <article class="card">
-        <button class="card__bookmarks card__bookmark--filed"></button>
+        <button class="card__bookmarks" data-js="button-selected">
+          <i class="fa-regular fa-bookmark" style="color: #000000"></i>
+        </button>
         <h2 class="card__question">What is the capital of Mexico?</h2>
         <button class="card__button">Show Answer</button>
         <p class="card__answer">Mexico City</p>
@@ -81,7 +92,9 @@
       </article>
 
       <article class="card">
-        <button class="card__bookmarks card__bookmark--filed"></button>
+        <button class="card__bookmarks" data-js="button-selected">
+          <i class="fa-regular fa-bookmark" style="color: #000000"></i>
+        </button>
         <h2 class="card__question">What is the capital of Israel?</h2>
         <button class="card__button">Show Answer</button>
         <p class="card__answer">Jerusalem</p>
@@ -105,5 +118,6 @@
         </a>
       </nav>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

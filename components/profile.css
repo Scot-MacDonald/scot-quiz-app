@@ -22,33 +22,6 @@
   display: flex;
 }
 
-/* .bookmarks,
-.questions {
-  margin-right: 40px;
-}
-
-.questions,
-.bookmarks {
-  border: 1px solid green;
-  padding: 15px;
-  border-radius: 10px;
-} */
-
-/* .questions,
-.number {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-items: space-between;
-}
-
-.bookmarks,
-.number {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 .profile__counters {
   display: flex;
   flex-wrap: wrap;

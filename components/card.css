@@ -10,16 +10,19 @@
 }
 
 .card__bookmarks {
-  height: 30px;
-  width: 30px;
+  /* height: 30px;
+  width: 30px; */
   background-color: transparent;
   border: none;
-  background-size: contain;
+  /* background-size: contain; */
   top: -10px;
   right: 15px;
   position: absolute;
+  font-size: x-large;
 }
-
+.card__bookmarks i {
+  background-color: white !important;
+}
 .card__bookmark {
   background-image: url(./resources/bookmark.png);
 }

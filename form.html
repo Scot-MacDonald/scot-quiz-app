@@ -18,7 +18,31 @@
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
     </header>
-    <main class="main-content">hello</main>
+    <main class="main-content">
+      <form action="">
+        <label name="question" for="question">Your question:</label>
+        <textarea
+          id="question"
+          name="question"
+          rows="4"
+          cols="50"
+          placeholder="Write your question here."
+        ></textarea>
+        <br />
+        <label name="answer" for="answer">Your answer:</label>
+        <textarea
+          id="answer"
+          name="answer"
+          rows="4"
+          cols="50"
+          placeholder="Write your answer here."
+        ></textarea>
+        <br />
+        <label for="tag">Tag:</label>
+        <input type="text" name="tag" id="tag" />
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
     <footer>
       <nav class="navbar">
         <a class="navbar__link" href="./index.html">

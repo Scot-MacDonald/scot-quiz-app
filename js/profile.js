@@ -1,6 +1,6 @@
-const chk = document.getElementById("chk");
+const mode = document.getElementById("mode");
 
-chk.addEventListener("change", () => {
+mode.addEventListener("change", () => {
   document.body.classList.toggle("dark");
 });
 

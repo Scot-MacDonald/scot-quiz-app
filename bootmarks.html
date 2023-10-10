@@ -24,8 +24,10 @@
           <i class="fa-solid fa-bookmark" style="color: #000000"></i>
         </button>
         <h2 class="card__question">What is the capital of Brazil?</h2>
-        <button class="card__button">Show Answer</button>
-        <p class="card__answer">Brasília</p>
+        <button data-js="toggle-button" id="toggleButton" class="card__button">
+          Show Answer
+        </button>
+        <p data-js="answer" id="answer" class="card__answer">Brasília</p>
         <ul class="card__tags">
           <li class="card__tags__tag">city</li>
           <li class="card__tags__tag">country</li>
@@ -38,8 +40,10 @@
           <i class="fa-solid fa-bookmark" style="color: #000000"></i>
         </button>
         <h2 class="card__question">What is the capital of Uruguay?</h2>
-        <button class="card__button">Show Answer</button>
-        <p class="card__answer">Montevideo</p>
+        <button data-js="toggle-button" id="toggleButton" class="card__button">
+          Show Answer
+        </button>
+        <p data-js="answer" id="answer" class="card__answer">Montevideo</p>
         <ul class="card__tags">
           <li class="card__tags__tag">city</li>
           <li class="card__tags__tag">country</li>
@@ -91,5 +95,7 @@
         </a>
       </nav>
     </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/bookmark.js"></script>
   </body>
 </html>

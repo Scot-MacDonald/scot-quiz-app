@@ -9,12 +9,28 @@
   flex-direction: column;
 }
 
-form > :nth-child(odd) {
+form > :nth-child(1) {
   margin-bottom: 10px;
 }
-form > :nth-child(even) {
-  margin-bottom: 40px;
+form > :nth-child(2) {
+  margin-bottom: 10px;
 }
+form > :nth-child(4) {
+  margin-bottom: 10px;
+}
+form > :nth-child(5) {
+  margin-bottom: 10px;
+}
+form > :nth-child(7) {
+  margin-bottom: 10px;
+}
+form > :nth-child(9) {
+  margin-top: 50px;
+}
+
+/* form > :nth-child(even) {
+  margin-bottom: 40px;
+} */
 
 .form__button {
   border: 1px solid var(--green);
@@ -37,4 +53,16 @@ form > :nth-child(even) {
 .form__button:hover {
   background-color: var(--green);
   color: var(--white);
+}
+
+.card__answer {
+  font-size: 20px;
+  text-align: center;
+  color: var(--green);
+  padding: 20px 0;
+  display: block;
+}
+
+.form__character-count {
+  text-align: right;
 }

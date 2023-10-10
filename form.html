@@ -15,22 +15,29 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body data-js="body">
+  <body>
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
     </header>
-    <main class="main-content__form">
-      <form data-js="form" class="form" action="">
+    <main data-js="main" id="main" class="main-content">
+      <form data-js="form" class="form">
         <label name="question" for="question">Your question:</label>
         <textarea
+          maxlength="200"
+          data-js="question"
           id="question"
           name="question"
           rows="4"
           cols="50"
           placeholder="Write your question here."
         ></textarea>
+        <small class="form__character-count"
+          >(<span data-js="amountLeft"></span> characters left)</small
+        >
         <label name="answer" for="answer">Your answer:</label>
         <textarea
+          maxlength="200"
+          data-js="answer"
           id="answer"
           name="answer"
           rows="4"
@@ -41,19 +48,6 @@
         <input type="text" name="tag" id="tag" />
         <input class="form__button" type="submit" value="Submit" />
       </form>
-      <article data-js="card-container" class="card">
-        <!-- <button class="card__bookmarks" data-js="button-selected">
-          <i class="fa-regular fa-bookmark" style="color: #000000"></i>
-        </button>
-        <h2 class="card__question">What is the capital of Iran?</h2>
-        <button class="card__button">Show Answer</button>
-        <p class="card__answer">Tehran</p>
-        <ul class="card__tags">
-          <li class="card__tags__tag">city</li>
-          <li class="card__tags__tag">country</li>
-          <li class="card__tags__tag">sheep brains</li>
-        </ul> -->
-      </article>
     </main>
     <footer>
       <nav class="navbar">
@@ -72,7 +66,7 @@
         </a>
       </nav>
     </footer>
-    <script src="./js/index.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
     <script src="./js/form.js"></script>
   </body>
 </html>

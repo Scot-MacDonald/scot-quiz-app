@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./components/header.css" />
     <link rel="stylesheet" href="./components/card.css" />
     <link rel="stylesheet" href="./components/navifation.css" />
+    <link rel="stylesheet" href="./components/form.css" />
     <script
       src="https://kit.fontawesome.com/236b5813f9.js"
       crossorigin="anonymous"
@@ -18,8 +19,8 @@
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
     </header>
-    <main class="main-content">
-      <form action="">
+    <main class="main-content__form">
+      <form class="form" action="">
         <label name="question" for="question">Your question:</label>
         <textarea
           id="question"
@@ -28,7 +29,6 @@
           cols="50"
           placeholder="Write your question here."
         ></textarea>
-        <br />
         <label name="answer" for="answer">Your answer:</label>
         <textarea
           id="answer"
@@ -37,10 +37,9 @@
           cols="50"
           placeholder="Write your answer here."
         ></textarea>
-        <br />
         <label for="tag">Tag:</label>
         <input type="text" name="tag" id="tag" />
-        <input type="submit" value="Submit" />
+        <input class="form__button" type="submit" value="Submit" />
       </form>
     </main>
     <footer>

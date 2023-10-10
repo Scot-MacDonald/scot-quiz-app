@@ -18,6 +18,10 @@ a {
   } */
 }
 
+i {
+  cursor: pointer;
+}
+
 body.dark {
   background-color: rgb(50, 51, 58);
   color: #7a7a7c;
@@ -81,12 +85,4 @@ body.dark footer {
 
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
-}
-
-.fa-moon {
-  color: #f1c40f;
-}
-
-.fa-sun {
-  color: #f39c12;
 }

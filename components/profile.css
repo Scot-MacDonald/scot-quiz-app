@@ -1,7 +1,7 @@
 .main-content__pro {
   border: 1px #423d3c solid;
   padding: 40px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .profile__bio {
   display: flex;
@@ -53,13 +53,13 @@
 
 .profile__counters img {
   width: 40px;
-  height: 40px;
+
   margin-right: 30px;
 }
 
 .profile__counters .fa-bookmark {
   width: 40px;
-  height: 40px;
+
   margin-right: 30px;
   display: flex;
   justify-content: space-between;
@@ -67,7 +67,7 @@
 }
 .profile__counters .fa-message {
   width: 40px;
-  height: 40px;
+
   margin-right: 30px;
   display: flex;
   justify-content: space-between;

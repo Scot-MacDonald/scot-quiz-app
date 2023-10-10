@@ -17,17 +17,6 @@
 //   //   const actualList = card.innerHTML;
 //   //   card.innerHTML = newAnswer;
 // });
-// // const article = document.createElement("article");
-// // main.append(article);
-
-// const newDiv = document.createElement("div");
-
-// const newContent = h2.textContent = newCard.question;;
-
-// newDiv.appendChild(newContent);
-
-// const currentDiv = document.getElementById("div1");
-// document.body.insertBefore(newDiv, currentDiv);
 
 // const h2 = document.createElement("h2");
 // h2.classList.add("card__question");
@@ -126,18 +115,29 @@ form.addEventListener("submit", (event) => {
   event.target.reset();
 });
 
-// const textareas = document.querySelectorAll('[data-js="personalMessage"]');
-// const amountLeftElements = document.querySelectorAll('[data-js^="amountLeft"]');
-// const maxLength = textareas[0].getAttribute("maxlength");
+///////COUNTER////////
 
-// const updateAmountLeft = (index, value) => {
-//   amountLeftElements[index].innerText = value;
-// };
+console.clear();
 
-// textareas.forEach((textarea, index) => {
-//   updateAmountLeft(index, maxLength);
+const questionElementA = document.querySelector('[data-js="question"]');
+const amountLeftA = document.querySelector('[data-js="amountLeft"]');
+const maxLengthA = questionElementA.getAttribute("maxlength");
 
-//   textarea.addEventListener("input", () => {
-//     updateAmountLeft(index, maxLength - textarea.value.length);
-//   });
-// });
+const questionElementB = document.querySelector('[data-js="answer"]');
+const amountLeftB = document.querySelector('[data-js="amountLeftB"]');
+const maxLengthB = questionElementB.getAttribute("maxlength");
+
+const updateAmountLeft = (element, value) => {
+  element.innerText = value;
+};
+
+updateAmountLeft(amountLeftA, maxLengthA);
+updateAmountLeft(amountLeftB, maxLengthB);
+
+questionElementA.addEventListener("input", () => {
+  updateAmountLeft(amountLeftA, maxLengthA - questionElementA.value.length);
+});
+
+questionElementB.addEventListener("input", () => {
+  updateAmountLeft(amountLeftB, maxLengthB - questionElementB.value.length);
+});

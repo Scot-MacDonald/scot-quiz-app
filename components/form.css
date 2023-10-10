@@ -1,12 +1,9 @@
-.main-content__form {
-  border: 1px #423d3c solid;
-  padding: 40px;
-  border-radius: 20px;
-}
-
 .form {
   display: flex;
   flex-direction: column;
+  border: 1px #423d3c solid;
+  padding: 40px;
+  border-radius: 10px;
 }
 
 form > :nth-child(1) {
@@ -60,7 +57,7 @@ form > :nth-child(9) {
   text-align: center;
   color: var(--green);
   padding: 20px 0;
-  display: block;
+  display: none;
 }
 
 .form__character-count {

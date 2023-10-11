@@ -53,6 +53,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
     main.appendChild(cardContainer);
 
+    // NEED TO ADD 2 EVENTlISTNERS AFTER ADDED TO THE MAIN
+
+    //////// TO GET BOOKMARK BUTTONS WORKING //////////
+
+    const bookmarkButton2 = cardContainer.querySelector(
+      '[data-js="button-selected"]'
+    );
+    bookmarkButton2.addEventListener("click", function () {
+      const icon = bookmarkButton2.querySelector("i");
+      icon.classList.toggle("fa-regular");
+      icon.classList.toggle("fa-solid");
+    });
+
     //////// TO GET ANSWER BUTTON WORKING //////////
     showAnswerButton.addEventListener("click", () => {
       answerElement.classList.toggle("hidden");

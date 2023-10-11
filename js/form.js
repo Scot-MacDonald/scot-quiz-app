@@ -1,3 +1,5 @@
+//////// FORM //////////
+
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector('[data-js="form"]');
   const card = document.querySelector(".card");
@@ -51,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     main.appendChild(cardContainer);
 
+    //////// TO GET ANSWER BUTTON WORKING //////////
     showAnswerButton.addEventListener("click", () => {
       answerElement.classList.toggle("hidden");
     });
@@ -58,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
     event.target.reset();
   });
 
-  ///////COUNTER////////
+  //////// COUNTER //////////
 
   const questionElementA = document.querySelector('[data-js="question"]');
   const amountLeftA = document.querySelector('[data-js="amountLeft"]');

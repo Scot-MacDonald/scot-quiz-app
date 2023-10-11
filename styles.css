@@ -28,7 +28,7 @@ section {
 }
 
 .main-content__pro,
-.main-content {
+main {
   animation: fadeIn 1s ease 0.5s forwards;
 }
 

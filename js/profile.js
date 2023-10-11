@@ -1,4 +1,4 @@
-// const mode = document.getElementById("mode");
+//////// DARK MODE //////////
 
 const darkMode = document.querySelector('[data-js="darkMode"]');
 

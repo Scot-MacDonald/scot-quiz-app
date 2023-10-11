@@ -15,9 +15,17 @@ section {
   margin: 0 0 50px 0;
 }
 
+/* BOOKMARK POINTER */
+i {
+  cursor: pointer;
+}
+
+/* CLASS FOR ANSWER BUTTON */
 .hidden {
   display: none;
 }
+
+/* ANIMATION OF CARDS AND MAIN-CONTENT */
 
 .card,
 .main-content__pro,

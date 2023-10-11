@@ -1,4 +1,4 @@
-/* Card styles */
+/* CARD STYLES */
 
 .card {
   border-radius: 10px;
@@ -10,26 +10,26 @@
 }
 
 .card__bookmarks {
-  /* height: 30px;
-  width: 30px; */
   background-color: transparent;
   border: none;
-  /* background-size: contain; */
   top: -10px;
   right: 15px;
   position: absolute;
   font-size: x-large;
+  /* height: 30px;
+  width: 30px;
+  background-size: contain; */
 }
 .card__bookmarks i {
   background-color: white !important;
 }
-.card__bookmark {
+/* .card__bookmark {
   background-image: url(./resources/bookmark.png);
 }
 
 .card__bookmark--filed {
   background-image: url(./resources/bookmark_filled.png);
-}
+} */
 
 .card__question {
   font-size: 20px;

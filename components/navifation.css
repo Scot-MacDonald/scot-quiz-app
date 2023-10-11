@@ -1,3 +1,4 @@
+/* FOOTER AND NAVBAR STYLES */
 footer {
   position: fixed;
   bottom: 0;
@@ -36,8 +37,4 @@ footer {
 
 .navbar__link:hover {
   background-color: black;
-}
-
-.fa-lg {
-  font-size: 2em;
 }

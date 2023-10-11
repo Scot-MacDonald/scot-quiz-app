@@ -16,12 +16,18 @@
     ></script>
   </head>
   <body>
+    <!-- HEADER -->
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
     </header>
+    <!-- HEADER END -->
+    <!-- MAIN -->
     <main data-js="main" id="main" class="main-content">
+      <!-- FORM -->
       <form data-js="form" class="form">
+        <!-- LABEL QUESTION -->
         <label name="question" for="question">Your question:</label>
+        <!-- TEXT QUESTION -->
         <textarea
           maxlength="150"
           data-js="question"
@@ -31,10 +37,13 @@
           cols="50"
           placeholder="Write your question here."
         ></textarea>
+        <!-- COUNTER 1 -->
         <small class="form__character-count"
           >(<span data-js="amountLeft"></span> characters left)</small
         >
+        <!-- LABEL ANSWER -->
         <label name="answer" for="answer">Your answer:</label>
+        <!-- TEXT ANSWER -->
         <textarea
           maxlength="150"
           data-js="answer"
@@ -44,6 +53,7 @@
           cols="50"
           placeholder="Write your answer here."
         ></textarea>
+        <!-- COUNTER 2 -->
         <small class="form__character-count"
           >(<span data-js="amountLeftB"></span> characters left)</small
         >
@@ -51,8 +61,12 @@
         <input type="text" name="tag" id="tag" />
         <input class="form__button" type="submit" value="Submit" />
       </form>
+      <!-- FORM END -->
     </main>
+    <!-- MAIN END -->
+    <!-- FOOTER -->
     <footer>
+      <!-- NAV -->
       <nav class="navbar">
         <a class="navbar__link" href="./index.html">
           <i class="fa-solid fa-house fa-lg"></i>
@@ -68,9 +82,12 @@
           <i class="fa fa-user-circle fa-lg"></i>
         </a>
       </nav>
+      <!-- NAV END -->
     </footer>
+    <!-- FOOTER END-->
     <script src="./js/index.js"></script>
-    <script src="./js/bookmark.js"></script>
+
     <script src="./js/form.js"></script>
+    <script src="./js/bookmark.js"></script>
   </body>
 </html>

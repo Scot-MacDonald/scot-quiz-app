@@ -1,9 +1,7 @@
-const mode = document.getElementById("mode");
+// const mode = document.getElementById("mode");
 
-mode.addEventListener("change", () => {
+const darkMode = document.querySelector('[data-js="darkMode"]');
+
+darkMode.addEventListener("change", () => {
   document.body.classList.toggle("dark");
-});
-
-toggleButton.addEventListener("click", () => {
-  bodyElement.classList.toggle("dark");
 });
